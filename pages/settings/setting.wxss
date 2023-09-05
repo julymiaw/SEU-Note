@@ -1,0 +1,25 @@
+/* pages/settings/setting.wxss */
+.head{
+    display: flex;
+    flex-direction:column ;
+    border-top:solid 2rpx #707070;
+
+}
+.head-item{
+    border-bottom: solid 2rpx #707070;
+    height: 60rpx;
+    width: 750rpx;
+    display: flex;
+    padding: 20rpx 10rpx;
+    margin-top: auto;
+}
+.head-item image{
+    height: 60rpx;
+    width: 60rpx;
+    margin-left: auto;
+    padding: 20rpx;
+}
+.head-item text{
+    font-size: medium;
+    color: #707070;
+}

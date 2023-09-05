@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/head/head",
+    "pages/note/note",
+    "pages/settings/setting",
+    "pages/add/add",
+    "pages/user/user",
+    "pages/hottest/hottest",
+    "pages/newest/newest",
+    "pages/recommend/recommend"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000033",
+    "navigationBarTitleText": "SEU NOTE",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+      "list": [
+    {
+        "pagePath": "pages/head/head",
+        "iconPath": "/images/dots/图像 5.png",
+        "selectedIconPath": "/images/dots/图像 5.png"
+    },
+    {
+        "pagePath": "pages/add/add",
+        "iconPath": "/images/dots/图像 7.png",
+        "selectedIconPath": "/images/dots/图像 7.png"
+    },
+    {
+        "pagePath": "pages/user/user",
+        "iconPath": "/images/dots/图像 6.png",
+        "selectedIconPath": "/images/dots/图像 6.png"
+    }
+]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

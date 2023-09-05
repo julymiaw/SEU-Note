@@ -1,0 +1,92 @@
+/* pages/user/user.wxss */
+.title{
+    height: 100rpx;
+    border: solid 2rpx #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title image{
+    width: 60rpx;
+    height: 60rpx;
+}
+.title text{
+    font-size: 50rpx;
+    color: rgb(100, 99, 99);
+}
+.user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.user image{
+    height: 140rpx;
+    width: 140rpx;
+}
+.user-id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.user-id text{
+    color: #707070;
+
+}
+.user-item{
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-item text{
+    color: #707070;
+    margin-top: 10rpx;
+}
+.mission{
+    margin: 20rpx;
+}
+.mission text{
+    font-size: 60rpx;
+    color: #707070;
+}
+.mission-item{
+    height: 160rpx;
+    margin: 20rpx;
+    border: solid 2rpx #A29C9C;
+}
+.create{
+    border-top: solid 2rpx #707070;
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    margin: 20rpx;
+}
+.create text{
+    font-size: 60rpx;
+    color: #707070;
+}
+.create-item{
+    display: flex;
+    border: solid 2rpx #707070;
+    height: 660rpx;
+    margin: 20rpx;
+    flex-direction: column;
+}
+
+.create-item text{
+    font-size: medium;
+    color: #707070;
+    margin: 20rpx;
+}
+
+.create-container{
+    display: flex;
+    justify-content: space-around;
+}
+.container text{
+    font-size: 30rpx;
+    color: #A29C9C;
+}

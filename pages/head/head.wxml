@@ -1,0 +1,51 @@
+<!--pages/head/head.wxml-->
+<view class="search">
+<text>请输入你想搜索</text>
+<image src="" mode=""/>
+</view>
+<swiper class="swiper-list" indicator-dots autoplay circular>
+    <swiper-item>
+        <image src="/images/首页/组件 6 – 1.png"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/images/首页/蒙版组 -1.png"></image>
+    </swiper-item>
+    <swiper-item>
+        <image src="/images/首页/蒙版组 1.png"></image>
+    </swiper-item>
+</swiper>
+<view class="function-list">
+  <view class="function-item">
+    <image src="/images/首页/组件 14 – 1.jpg"></image>
+    <text>社区</text>
+  </view>
+  <view class="function-item">
+  <image src="/images/首页/组件 15 – 1.jpg"></image>
+  <text>排行榜</text>
+  </view>
+</view>
+<view class="function-plate">
+<navigator url="/pages/newest/newest" class="latest">
+<text>最新</text>
+</navigator>
+<view class="combine">
+<navigator url="/pages/hottest/hottest" class="hottest" style="position: relative; left: 0rpx; top: -29rpx">
+<text>最热</text>
+</navigator>
+<navigator url="/pages/recommend/recommend" class="recommend">
+<text>推荐</text>
+</navigator>
+</view>
+</view>
+<view class="user">
+<view class="user-id">
+<navigator url="/pages/note/note">
+<image src="/images/首页/蒙版组 3.jpg"></image>
+</navigator>
+<text>会飞的鱼</text>
+</view>
+<image class="subscribe" src="/images/首页/组件 11 – 1.jpg"></image>
+</view>
+<view class="text" style="width: 710rpx; height: 165rpx; display: block; box-sizing: border-box">
+<text>用户展示文本</text>
+</view>

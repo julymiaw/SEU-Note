@@ -1,0 +1,11 @@
+<!--pages/add/add.wxml-->
+<view class="title">
+<text> 标题</text>
+</view>
+<view class="content">
+<text>内容</text>
+</view>
+<view class="photos">
+<image src="/images/发布页/图像 17.jpg"></image>
+<text>相册</text>
+</view>

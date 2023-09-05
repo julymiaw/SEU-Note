@@ -1,0 +1,9 @@
+{
+    "usingComponents": {},
+    "window": {
+        "navigationBarTitleText": "SEU NOTE",
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#000033",
+        "navigationBarTextStyle":"white"
+    }
+}

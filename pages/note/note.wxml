@@ -1,0 +1,37 @@
+<!--pages/note/note.wxml-->
+<view class="title">
+<image class="user" src="/images/笔记详情页/蒙版组 4.png"></image>
+<text>会飞的鱼</text>
+<image class="subscribe" src="/images/笔记详情页/组件 11 – 2.png"></image>
+<image class="more" src="/images/笔记详情页/资源1.png"></image>
+</view>
+<swiper class="swiper-container" circular indicator-dots>
+<!--之后使用wx：for语句调用数据改写-->
+<swiper-item></swiper-item>
+<swiper-item></swiper-item>
+<swiper-item></swiper-item>
+<swiper-item></swiper-item>
+</swiper>
+<view class="t">
+<text class="t-title">标题</text>
+<text class="t-content">内容</text>
+<text class="t-time">2023-8-29 江苏</text>
+</view>
+<view class="comment">
+<text>评论</text>
+</view>
+<view class="user-comment">
+<text class="uc">说点什么...</text>
+<view class="uc-item">
+<image src="/images/笔记详情页/图像 22.png"></image>
+<text>8</text>
+</view>
+<view class="uc-item">
+<image src="/images/笔记详情页/图像 23.png"></image>
+<text>8</text>
+</view>
+<view class="uc-item">
+<image src="/images/笔记详情页/图像 24.png"></image>
+<text>8</text>
+</view>
+</view>

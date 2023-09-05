@@ -1,0 +1,94 @@
+/* pages/note/note.wxss */
+.title{
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2rpx #707070;
+}
+.title text{
+    color: #707070;
+    font-size: medium;
+}
+.user{
+    width:80rpx;
+    height: 80rpx;
+    margin: 20rpx;
+}
+.back{
+    width:80rpx;
+    height: 80rpx;
+    margin: 20rpx;
+}
+.more{
+    width:50rpx;
+    height: 100rpx;
+    margin: 20rpx;
+}
+.subscribe{
+    width:128rpx;
+    height: 80rpx;
+    margin-left: auto;
+}
+
+.swiper-container{
+    height: 600rpx;
+    border-bottom: #707070 solid 2rpx;
+}
+
+.t{
+    display: flex;
+    flex-direction: column;
+    border-bottom:#707070 solid 2rpx;
+}
+.t-title{
+    font-size: x-large;
+    margin: 10rpx;
+}
+.t-content{
+    height: 100rpx;
+    font-size: medium;
+    color: #707070;
+    margin: 10rpx;
+}
+.t-time{
+    font-size: small;
+    color: #707070;
+    margin: 10rpx;
+}
+.comment{
+    height: 360rpx;
+    border-bottom: solid #707070 2rpx;
+}
+.comment text{
+    font-size: x-large;
+    margin: 10rpx;
+}
+
+.user-comment{
+    display: flex;
+    justify-content: space-around;
+}
+.uc-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.uc-item image{
+    height: 60rpx;
+    width: 60rpx;
+    margin: 20rpx;
+}
+.uc-item text{
+    font-size: 50rpx;
+    color: #707070;
+}
+.uc{
+    border: #F7F3F3 solid 4rpx;
+    font-size: medium;
+    color: #707070;
+    height: 60rpx;
+    width: 300rpx;
+    margin: 20rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+<!--pages/user/user.wxml-->
+<view class="title">
+<image src="/images/个人页/图像 13.jpg"></image>
+<text>个人中心</text>
+<navigator url="/pages/settings/setting">
+<image src="/images/个人页/图像 11.jpg"></image>
+</navigator>
+</view>
+<view class="user">
+<view class="user-id">
+<navigator url="/pages/note/note">
+<image src="/images/个人页/蒙版组 2.jpg"></image>
+</navigator>
+<text>会飞的鱼</text>
+</view>
+ <view class="user-item">
+  <text>10</text>
+  <text>关注</text>
+ </view>
+ <view class="user-item">
+  <text>10</text>
+  <text>收藏</text>
+ </view>
+ <view class="user-item">
+  <text>10</text>
+  <text>粉丝</text>
+ </view>
+</view>
+<view class="mission">
+<text>任务中心</text>
+</view>
+<view class="mission-item">
+</view>
+<view class="create">
+<text>创作中心</text>
+</view>
+<view class="create-item">
+<text>近七日数据</text>
+<view class="create-container">
+<view class="container">
+<text>0</text>
+<text>新增粉丝</text>
+</view>
+<view class="container">
+<text>0</text>
+<text>新增赞数</text>
+</view>
+<view class="container">
+<text>0</text>
+<text>新增浏览</text>
+</view>
+</view>
+</view>

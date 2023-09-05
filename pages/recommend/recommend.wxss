@@ -1,0 +1,41 @@
+/* pages/recommend/recommend.wxss */
+.plate {
+    border-top: 2rpx solid #707070;
+    border-bottom: 2rpx solid #707070;
+    margin: 20rpx;
+    display: flex;
+    flex-direction: column;
+}
+.title text{
+    color: #707070;
+    font-size: x-large;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user image{
+    height: 80rpx;
+    width: 80rpx;
+    margin: 10rpx;
+}
+.user text{
+    font-size: medium;
+    color: #707070;
+    margin: 10rpx;
+}
+
+.content{
+    height: 300rpx;
+    border: #707070 2rpx solid;
+}
+.comment{
+    display: flex;
+}
+.comment text{
+    color: #707070;
+    font-size: medium;
+}
+.comment-part{
+    margin: 10rpx;
+}

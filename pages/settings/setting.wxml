@@ -1,0 +1,14 @@
+<!--pages/settings/setting.wxml-->
+<view class="head">
+<view class="head-item">
+<text>编辑资料</text>
+<image src="/images/设置页/图像 19.jpg"></image>
+</view>
+<view class="head-item">
+<text>账号管理</text>
+<image src="/images/设置页/图像 19.jpg"></image>
+</view>
+</view>
+<view class="container">
+<button type="primary" size="default">退出登录</button>
+</view>

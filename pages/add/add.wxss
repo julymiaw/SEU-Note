@@ -1,0 +1,26 @@
+/* pages/add/add.wxss */
+.title{
+    border: solid 2rpx #efefef;
+    margin: 16rpx;
+}
+.title text{
+    color: #707070;
+}
+.content{
+    border: solid 2rpx #efefef;
+    margin: 16rpx;
+    height: 1060rpx;
+}
+.content text{
+    color: #707070;
+}
+.photos{
+    display: flex;
+    margin: 16rpx;
+    justify-content: right;
+}
+.photos image{
+    width: 60rpx;
+    height: 60rpx;
+    margin-left: auto;
+}
