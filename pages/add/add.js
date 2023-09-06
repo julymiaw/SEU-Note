@@ -1,4 +1,5 @@
 // pages/add/add.js
+// 这个页面是笔记发布页
 Page({
 
     /**
